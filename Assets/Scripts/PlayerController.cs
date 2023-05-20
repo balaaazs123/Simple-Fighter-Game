@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player2Weapon")
         {
-            //PlayerHealth -= PlayerTwoController.PlayeTwoDamage;
+            PlayerHealth -= PlayerTwoController.PlayerTwoDamage;
             slider.value = PlayerHealth;
         }
         if (PlayerHealth <= 0)
